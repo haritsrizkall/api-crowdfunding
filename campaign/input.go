@@ -1,8 +1,6 @@
 package campaign
 
-import (
-	"bwastartup/user"
-)
+import "github.com/haritsrizkall/api-crowdfunding/user"
 
 type UpdateCampaignID struct {
 	ID int `uri:"id" binding:"required"`

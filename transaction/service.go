@@ -1,8 +1,9 @@
 package transaction
 
 import (
-	"bwastartup/campaign"
 	"errors"
+
+	"github.com/haritsrizkall/api-crowdfunding/campaign"
 )
 
 type Service interface {

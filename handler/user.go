@@ -1,11 +1,12 @@
 package handler
 
 import (
-	"bwastartup/auth"
-	"bwastartup/helper"
-	"bwastartup/user"
 	"fmt"
 	"net/http"
+
+	"github.com/haritsrizkall/api-crowdfunding/auth"
+	"github.com/haritsrizkall/api-crowdfunding/helper"
+	"github.com/haritsrizkall/api-crowdfunding/user"
 
 	"github.com/gin-gonic/gin"
 )

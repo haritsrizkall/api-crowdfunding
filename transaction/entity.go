@@ -1,9 +1,10 @@
 package transaction
 
 import (
-	"bwastartup/campaign"
-	"bwastartup/user"
 	"time"
+
+	"github.com/haritsrizkall/api-crowdfunding/campaign"
+	"github.com/haritsrizkall/api-crowdfunding/user"
 )
 
 type Transaction struct {
