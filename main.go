@@ -1,15 +1,16 @@
 package main
 
 import (
-	"bwastartup/auth"
-	"bwastartup/campaign"
-	"bwastartup/handler"
-	"bwastartup/helper"
-	"bwastartup/transaction"
-	"bwastartup/user"
 	"log"
 	"net/http"
 	"strings"
+
+	"github.com/haritsrizkall/api-crowdfunding/auth"
+	"github.com/haritsrizkall/api-crowdfunding/campaign"
+	"github.com/haritsrizkall/api-crowdfunding/handler"
+	"github.com/haritsrizkall/api-crowdfunding/helper"
+	"github.com/haritsrizkall/api-crowdfunding/transaction"
+	"github.com/haritsrizkall/api-crowdfunding/user"
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/gin-gonic/gin"
